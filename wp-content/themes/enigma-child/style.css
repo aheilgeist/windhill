@@ -1,0 +1,22 @@
+/*
+ Theme Name: windhill
+ Description: enigma-child
+ Author: Autumn Heilgeist
+ Author URI: aheilgeist.mccdgm.net/windhill
+ Template: enigma
+ Version: 1
+ */
+ 
+ @import url("../enigma/style.css");
+ @import url("../enigma/default.css");
+ 
+ .logo a {
+  font-size: 40px;
+ }
+ 
+ .style {
+ background-color: #5c1119;
+ }
+ .header_section {
+  background-color: #5c1119;
+ }

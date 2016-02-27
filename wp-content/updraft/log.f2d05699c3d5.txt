@@ -1,0 +1,670 @@
+0000.002 (0) Opened log file at time: Thu, 25 Feb 2016 19:43:41 +0000 on https://windhill-coderunner47349.c9users.io
+0000.011 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.5.9-1ubuntu4.13 (Linux coderunner47349-windhill-2633189 4.2.0-c9 #1 SMP Wed Sep 30 16:14:37 UTC 2015 x86_64) MySQL: 5.5.44 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.6M | 3.8M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.019 (0) Free space on disk containing Updraft's temporary directory: 4992.2 Mb
+0000.029 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.036 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.084 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.106 (0) Set semaphore last lock (fd) time to 2016-02-25 19:43:41
+0000.114 (0) Semaphore lock (fd) complete
+0000.136 (0) Backup run: resumption=0, nonce=f2d05699c3d5, begun at=1456429421 (0s ago), job type=backup
+0000.152 (0) Scheduling a resumption (1) after 300 seconds (1456429721) in case this run gets aborted
+0000.190 (0) Checking if we have a zip executable available
+0000.196 (0) Testing: /usr/bin/zip
+0000.213 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.220 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.227 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.232 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.238 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.254 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.264 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.275 (0) Working binary zip found: /usr/bin/zip
+0000.290 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.296 (0) Creation of backups of directories: beginning
+0000.322 (0) Beginning creation of dump of plugins (split every: 400 Mb)
+0001.123 (0) Total entities for the zip file: 365 directories, 2441 files (0 skipped as non-modified), 39.9 Mb
+0001.150 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0001.199 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0001.232 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0001.265 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0001.302 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0001.307 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 Mb, 2441 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0002.092 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: size is now: 0.80 Mb
+0002.126 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 600 files added (on-disk size: 820.5 Kb)
+0002.150 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 700 files added (on-disk size: 820.5 Kb)
+0002.175 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 800 files added (on-disk size: 820.5 Kb)
+0002.199 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 900 files added (on-disk size: 820.5 Kb)
+0002.242 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 1000 files added (on-disk size: 820.5 Kb)
+0002.248 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.1 Mb, 2441 files batched, 501 (1002) added so far); re-opening (prior size: 820.5 Kb)
+0003.861 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: size is now: 5.30 Mb
+0003.905 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 1100 files added (on-disk size: 5440.5 Kb)
+0003.932 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 1200 files added (on-disk size: 5440.5 Kb)
+0003.957 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 1300 files added (on-disk size: 5440.5 Kb)
+0003.986 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 1400 files added (on-disk size: 5440.5 Kb)
+0004.010 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 1500 files added (on-disk size: 5440.5 Kb)
+0004.018 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.1 Mb, 2441 files batched, 501 (1503) added so far); re-opening (prior size: 5440.5 Kb)
+0004.920 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: size is now: 11.00 Mb
+0004.950 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 1600 files added (on-disk size: 11314.3 Kb)
+0004.971 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 1700 files added (on-disk size: 11314.3 Kb)
+0005.003 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 1800 files added (on-disk size: 11314.3 Kb)
+0005.032 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 1900 files added (on-disk size: 11314.3 Kb)
+0005.067 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 2000 files added (on-disk size: 11314.3 Kb)
+0005.076 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 Mb, 2441 files batched, 501 (2004) added so far); re-opening (prior size: 11314.3 Kb)
+0006.344 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: size is now: 14.90 Mb
+0006.408 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 2100 files added (on-disk size: 15286.4 Kb)
+0006.445 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 2200 files added (on-disk size: 15286.4 Kb)
+0006.476 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 2300 files added (on-disk size: 15286.4 Kb)
+0006.498 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip.tmp: 2400 files added (on-disk size: 15286.4 Kb)
+0007.444 (0) Created plugins zip (0) - 16399.9 Kb in 7.1 s (2306.3 Kb/s) (SHA1 checksum: f6057a179cbcaca9caab1d6030fa713350ca8ebd)
+0007.464 (0) Beginning creation of dump of themes (split every: 400 Mb)
+0007.710 (0) Total entities for the zip file: 114 directories, 806 files (0 skipped as non-modified), 25.6 Mb
+0007.742 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0007.763 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0007.786 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0007.814 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0007.840 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0007.847 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.9 Mb, 806 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0008.864 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip.tmp: size is now: 9.20 Mb
+0008.894 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip.tmp: 600 files added (on-disk size: 9434.6 Kb)
+0008.914 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip.tmp: 700 files added (on-disk size: 9434.6 Kb)
+0008.944 (0) Zip: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip.tmp: 800 files added (on-disk size: 9434.6 Kb)
+0009.735 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip.tmp: size is now: 19.40 Mb
+0009.860 (0) Created themes zip (0) - 19915.2 Kb in 2.4 s (8331.9 Kb/s) (SHA1 checksum: 0240bf805848a8eb2269387e9bf18b89a2b65f30)
+0009.872 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0009.878 (0) Looking for candidates to back up in: /home/ubuntu/workspace/wp-content/uploads
+0009.882 (0) finding files: 2016: adding to list (1)
+0009.886 (0) Beginning creation of dump of uploads (split every: 400 Mb)
+0009.899 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 Mb
+0009.911 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip.tmp: size is now: 0.00 Mb
+0009.926 (0) Created uploads zip (0) - 0.3 Kb in 0 s (9.4 Kb/s) (SHA1 checksum: 2c1bf916fa331c27c9496f789e98d66b34e912bc)
+0009.940 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.946 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.951 (0) Looking for candidates to back up in: /home/ubuntu/workspace/wp-content
+0009.956 (0) finding files: plugins: skipping: this is the plugins directory
+0009.959 (0) finding files: themes: skipping: this is the themes directory
+0009.964 (0) finding files: upgrade: skipping: excluded by options
+0009.969 (0) finding files: uploads: skipping: this is the uploads directory
+0009.974 (0) finding files: updraft: skipping: this is the updraft directory
+0009.979 (0) finding files: index.php: adding to list (1)
+0009.992 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 Mb
+0010.006 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip.tmp: size is now: 0.00 Mb
+0010.034 (0) Created others zip (0) - 0.2 Kb in 0 s (3.9 Kb/s) (SHA1 checksum: 17ae61785d01ded43623312acdaf5199b62e8b5c)
+0010.058 (0) Saving backup status to database (elements: 8)
+0010.068 (0) Beginning creation of database dump (WordPress DB)
+0010.082 (0) Testing: /usr/bin/mysqldump
+0010.128 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0010.173 (0) Table wp_options: Total expected rows (approximate): 183
+0010.221 (0) Table wp_options: Total rows added: 212 in 0.04 seconds
+0010.229 (0) Table wp_options: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_options.table.gz - 111.6 Kb)
+0010.248 (0) Table wp_users: Total expected rows (approximate): 1
+0010.256 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0010.263 (0) Table wp_users: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_users.table.gz - 0.5 Kb)
+0010.278 (0) Table wp_usermeta: Total expected rows (approximate): 16
+0010.286 (0) Table wp_usermeta: Total rows added: 16 in 0.00 seconds
+0010.292 (0) Table wp_usermeta: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_usermeta.table.gz - 0.9 Kb)
+0010.311 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0010.317 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0010.323 (0) Table wp_commentmeta: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_commentmeta.table.gz - 0.4 Kb)
+0010.344 (0) Table wp_comments: Total expected rows (approximate): 1
+0010.355 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0010.360 (0) Table wp_comments: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_comments.table.gz - 0.7 Kb)
+0010.377 (0) Table wp_links: Total expected rows (approximate): 0
+0010.385 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0010.391 (0) Table wp_links: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_links.table.gz - 0.4 Kb)
+0010.408 (0) Table wp_postmeta: Total expected rows (approximate): 1
+0010.420 (0) Table wp_postmeta: Total rows added: 1 in 0.00 seconds
+0010.428 (0) Table wp_postmeta: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_postmeta.table.gz - 0.4 Kb)
+0010.448 (0) Table wp_posts: Total expected rows (approximate): 3
+0010.458 (0) Table wp_posts: Total rows added: 3 in 0.00 seconds
+0010.464 (0) Table wp_posts: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_posts.table.gz - 1.4 Kb)
+0010.482 (0) Table wp_term_relationships: Total expected rows (approximate): 1
+0010.489 (0) Table wp_term_relationships: Total rows added: 1 in 0.00 seconds
+0010.495 (0) Table wp_term_relationships: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_term_relationships.table.gz - 0.3 Kb)
+0010.511 (0) Table wp_term_taxonomy: Total expected rows (approximate): 1
+0010.518 (0) Table wp_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0010.524 (0) Table wp_term_taxonomy: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_term_taxonomy.table.gz - 0.4 Kb)
+0010.539 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0010.545 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0010.553 (0) Table wp_termmeta: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_termmeta.table.gz - 0.4 Kb)
+0010.576 (0) Table wp_terms: Total expected rows (approximate): 1
+0010.584 (0) Table wp_terms: Total rows added: 1 in 0.00 seconds
+0010.590 (0) Table wp_terms: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_terms.table.gz - 0.4 Kb)
+0010.607 (0) Table wp_wfBadLeechers: Total expected rows (approximate): 0
+0010.618 (0) Table wp_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0010.624 (0) Table wp_wfBadLeechers: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfBadLeechers.table.gz - 0.3 Kb)
+0010.646 (0) Table wp_wfBlockedIPLog: Total expected rows (approximate): 0
+0010.654 (0) Table wp_wfBlockedIPLog: Total rows added: 0 in 0.00 seconds
+0010.664 (0) Table wp_wfBlockedIPLog: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfBlockedIPLog.table.gz - 0.3 Kb)
+0010.683 (0) Table wp_wfBlocks: Total expected rows (approximate): 0
+0010.690 (0) Table wp_wfBlocks: Total rows added: 0 in 0.00 seconds
+0010.696 (0) Table wp_wfBlocks: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfBlocks.table.gz - 0.4 Kb)
+0010.716 (0) Table wp_wfBlocksAdv: Total expected rows (approximate): 0
+0010.726 (0) Table wp_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0010.732 (0) Table wp_wfBlocksAdv: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfBlocksAdv.table.gz - 0.3 Kb)
+0010.756 (0) Table wp_wfConfig: Total expected rows (approximate): 99
+0010.770 (0) Table wp_wfConfig: Total rows added: 99 in 0.01 seconds
+0010.776 (0) Table wp_wfConfig: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfConfig.table.gz - 1.6 Kb)
+0010.797 (0) Table wp_wfCrawlers: Total expected rows (approximate): 0
+0010.807 (0) Table wp_wfCrawlers: Total rows added: 0 in 0.00 seconds
+0010.820 (0) Table wp_wfCrawlers: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfCrawlers.table.gz - 0.3 Kb)
+0010.850 (0) Table wp_wfFileMods: Total expected rows (approximate): 0
+0010.858 (0) Table wp_wfFileMods: Total rows added: 0 in 0.00 seconds
+0010.867 (0) Table wp_wfFileMods: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfFileMods.table.gz - 0.3 Kb)
+0010.887 (0) Table wp_wfHits: Total expected rows (approximate): 0
+0010.897 (0) Table wp_wfHits: Total rows added: 0 in 0.00 seconds
+0010.904 (0) Table wp_wfHits: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfHits.table.gz - 0.4 Kb)
+0010.927 (0) Table wp_wfHoover: Total expected rows (approximate): 0
+0010.937 (0) Table wp_wfHoover: Total rows added: 0 in 0.00 seconds
+0010.944 (0) Table wp_wfHoover: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfHoover.table.gz - 0.3 Kb)
+0010.969 (0) Table wp_wfIssues: Total expected rows (approximate): 0
+0010.977 (0) Table wp_wfIssues: Total rows added: 0 in 0.00 seconds
+0010.985 (0) Table wp_wfIssues: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfIssues.table.gz - 0.3 Kb)
+0011.005 (0) Table wp_wfLeechers: Total expected rows (approximate): 0
+0011.018 (0) Table wp_wfLeechers: Total rows added: 0 in 0.00 seconds
+0011.026 (0) Table wp_wfLeechers: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfLeechers.table.gz - 0.3 Kb)
+0011.051 (0) Table wp_wfLockedOut: Total expected rows (approximate): 0
+0011.062 (0) Table wp_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0011.070 (0) Table wp_wfLockedOut: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfLockedOut.table.gz - 0.3 Kb)
+0011.096 (0) Table wp_wfLocs: Total expected rows (approximate): 0
+0011.105 (0) Table wp_wfLocs: Total rows added: 0 in 0.00 seconds
+0011.112 (0) Table wp_wfLocs: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfLocs.table.gz - 0.4 Kb)
+0011.137 (0) Table wp_wfLogins: Total expected rows (approximate): 0
+0011.148 (0) Table wp_wfLogins: Total rows added: 0 in 0.00 seconds
+0011.157 (0) Table wp_wfLogins: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfLogins.table.gz - 0.4 Kb)
+0011.180 (0) Table wp_wfNet404s: Total expected rows (approximate): 0
+0011.189 (0) Table wp_wfNet404s: Total rows added: 0 in 0.00 seconds
+0011.196 (0) Table wp_wfNet404s: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfNet404s.table.gz - 0.3 Kb)
+0011.220 (0) Table wp_wfReverseCache: Total expected rows (approximate): 0
+0011.230 (0) Table wp_wfReverseCache: Total rows added: 0 in 0.00 seconds
+0011.238 (0) Table wp_wfReverseCache: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfReverseCache.table.gz - 0.3 Kb)
+0011.257 (0) Table wp_wfScanners: Total expected rows (approximate): 0
+0011.265 (0) Table wp_wfScanners: Total rows added: 0 in 0.00 seconds
+0011.271 (0) Table wp_wfScanners: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfScanners.table.gz - 0.3 Kb)
+0011.287 (0) Table wp_wfStatus: Total expected rows (approximate): 0
+0011.300 (0) Table wp_wfStatus: Total rows added: 0 in 0.00 seconds
+0011.306 (0) Table wp_wfStatus: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfStatus.table.gz - 0.3 Kb)
+0011.323 (0) Table wp_wfThrottleLog: Total expected rows (approximate): 0
+0011.333 (0) Table wp_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0011.339 (0) Table wp_wfThrottleLog: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfThrottleLog.table.gz - 0.3 Kb)
+0011.358 (0) Table wp_wfVulnScanners: Total expected rows (approximate): 0
+0011.365 (0) Table wp_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0011.372 (0) Table wp_wfVulnScanners: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfVulnScanners.table.gz - 0.3 Kb)
+0011.389 (0) Table wp_wpgmza: Total expected rows (approximate): 1
+0011.397 (0) Table wp_wpgmza: Total rows added: 1 in 0.00 seconds
+0011.404 (0) Table wp_wpgmza: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wpgmza.table.gz - 0.5 Kb)
+0011.425 (0) Table wp_wpgmza_categories: Total expected rows (approximate): 0
+0011.434 (0) Table wp_wpgmza_categories: Total rows added: 0 in 0.00 seconds
+0011.440 (0) Table wp_wpgmza_categories: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wpgmza_categories.table.gz - 0.3 Kb)
+0011.456 (0) Table wp_wpgmza_category_maps: Total expected rows (approximate): 0
+0011.465 (0) Table wp_wpgmza_category_maps: Total rows added: 0 in 0.00 seconds
+0011.472 (0) Table wp_wpgmza_category_maps: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wpgmza_category_maps.table.gz - 0.3 Kb)
+0011.491 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 1
+0011.500 (0) Table wp_wpgmza_maps: Total rows added: 1 in 0.00 seconds
+0011.506 (0) Table wp_wpgmza_maps: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wpgmza_maps.table.gz - 0.7 Kb)
+0011.523 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0011.530 (0) Table wp_wpgmza_polygon: Total rows added: 0 in 0.00 seconds
+0011.536 (0) Table wp_wpgmza_polygon: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wpgmza_polygon.table.gz - 0.4 Kb)
+0011.554 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0011.561 (0) Table wp_wpgmza_polylines: Total rows added: 0 in 0.00 seconds
+0011.568 (0) Table wp_wpgmza_polylines: finishing file (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wpgmza_polylines.table.gz - 0.3 Kb)
+0011.584 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_options.table.gz (1/38): adding to final database dump
+0011.622 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_users.table.gz (2/38): adding to final database dump
+0011.632 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_usermeta.table.gz (3/38): adding to final database dump
+0011.640 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_commentmeta.table.gz (4/38): adding to final database dump
+0011.646 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_comments.table.gz (5/38): adding to final database dump
+0011.652 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_links.table.gz (6/38): adding to final database dump
+0011.658 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_postmeta.table.gz (7/38): adding to final database dump
+0011.663 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_posts.table.gz (8/38): adding to final database dump
+0011.670 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_term_relationships.table.gz (9/38): adding to final database dump
+0011.676 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_term_taxonomy.table.gz (10/38): adding to final database dump
+0011.686 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_termmeta.table.gz (11/38): adding to final database dump
+0011.692 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_terms.table.gz (12/38): adding to final database dump
+0011.698 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfBadLeechers.table.gz (13/38): adding to final database dump
+0011.704 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfBlockedIPLog.table.gz (14/38): adding to final database dump
+0011.715 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfBlocks.table.gz (15/38): adding to final database dump
+0011.720 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfBlocksAdv.table.gz (16/38): adding to final database dump
+0011.727 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfConfig.table.gz (17/38): adding to final database dump
+0011.734 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfCrawlers.table.gz (18/38): adding to final database dump
+0011.742 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfFileMods.table.gz (19/38): adding to final database dump
+0011.749 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfHits.table.gz (20/38): adding to final database dump
+0011.762 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfHoover.table.gz (21/38): adding to final database dump
+0011.772 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfIssues.table.gz (22/38): adding to final database dump
+0011.778 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfLeechers.table.gz (23/38): adding to final database dump
+0011.783 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfLockedOut.table.gz (24/38): adding to final database dump
+0011.788 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfLocs.table.gz (25/38): adding to final database dump
+0011.794 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfLogins.table.gz (26/38): adding to final database dump
+0011.798 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfNet404s.table.gz (27/38): adding to final database dump
+0011.802 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfReverseCache.table.gz (28/38): adding to final database dump
+0011.807 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfScanners.table.gz (29/38): adding to final database dump
+0011.815 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfStatus.table.gz (30/38): adding to final database dump
+0011.821 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfThrottleLog.table.gz (31/38): adding to final database dump
+0011.827 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wfVulnScanners.table.gz (32/38): adding to final database dump
+0011.834 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wpgmza.table.gz (33/38): adding to final database dump
+0011.840 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wpgmza_categories.table.gz (34/38): adding to final database dump
+0011.846 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wpgmza_category_maps.table.gz (35/38): adding to final database dump
+0011.850 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wpgmza_maps.table.gz (36/38): adding to final database dump
+0011.855 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wpgmza_polygon.table.gz (37/38): adding to final database dump
+0011.860 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db-table-wp_wpgmza_polylines.table.gz (38/38): adding to final database dump
+0011.866 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db.gz: finished writing out complete database file (104 Kb)
+0011.893 (0) Total database tables backed up: 38 (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db.gz, size: 121377, checksum (SHA1): 11cb0791e974387e578fef20fe9b72ae5bb6f9d2)
+0011.920 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0011.924 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0011.930 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0011.934 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip: others: This file has not yet been successfully uploaded: will queue
+0011.939 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0011.943 (0) Saving backup history. Total backup size: 35.6 Mb
+0011.951 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0011.967 (0) Cloud backup selection (1/1): googledrive (last)
+0011.972 (0) Beginning dispatch of backup to remote (googledrive)
+0011.978 (0) Google Drive: this account is not authorised
+0011.983 (0) An error condition has occurred for the first time during this job
+0011.995 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0012.001 (0) Number of backup sets in history: 1; groups (db): 1
+0012.007 (0) Examining (for databases) backup set with group_id=0, nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+0012.015 (0) This backup set is the backup set just made, so will not be deleted.
+0012.020 (0) Number of backup sets in history: 1; groups (files): 1
+0012.027 (0) Examining (for files) backup set with nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+0012.035 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0012.042 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0012.042 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0012.043 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0012.043 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.050 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0012.061 (0) Resume backup (f2d05699c3d5, 0): finish run
+0012.078 (0) Decremented the semaphore (fd) by 1
+0012.086 (0) Semaphore (fd) unlocked
+0012.092 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0012.111 (0) Rescheduling resumption 1: moving to 120 seconds from now (1456429553)
+0012.122 (0) The backup has not finished; a resumption is scheduled
+0134.165 (1) Opened log file at time: Thu, 25 Feb 2016 19:45:55 +0000 on https://windhill-coderunner47349.c9users.io
+0134.172 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.5.9-1ubuntu4.13 (Linux coderunner47349-windhill-2633189 4.2.0-c9 #1 SMP Wed Sep 30 16:14:37 UTC 2015 x86_64) MySQL: 5.5.44 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.6M | 3.8M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0134.178 (1) Free space on disk containing Updraft's temporary directory: 4955.9 Mb
+0134.191 (1) Backup run: resumption=1, nonce=f2d05699c3d5, begun at=1456429421 (134s ago), job type=backup, previous check-in=11.6s
+0134.203 (1) Scheduling a resumption (2) after 300 seconds (1456429855) in case this run gets aborted
+0134.214 (1) Checking if we have a zip executable available
+0134.218 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0134.222 (1) Creation of backups of directories: already finished
+0134.226 (1) Saving backup status to database (elements: 8)
+0134.234 (1) Database dump (WordPress DB): Creation was completed already
+0134.251 (1) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0134.255 (1) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0134.260 (1) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0134.263 (1) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip: others: This file has not yet been successfully uploaded: will queue
+0134.267 (1) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0134.272 (1) Saving backup history. Total backup size: 35.6 Mb
+0134.284 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0134.294 (1) Cloud backup selection (1/1): googledrive (last)
+0134.298 (1) Beginning dispatch of backup to remote (googledrive)
+0134.302 (1) Google Drive: this account is not authorised
+0134.306 (1) An error condition has occurred for the first time during this job
+0134.314 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0134.319 (1) Number of backup sets in history: 1; groups (db): 1
+0134.323 (1) Examining (for databases) backup set with group_id=0, nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+0134.327 (1) This backup set is the backup set just made, so will not be deleted.
+0134.331 (1) Number of backup sets in history: 1; groups (files): 1
+0134.335 (1) Examining (for files) backup set with nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+0134.340 (1) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0134.344 (1) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0134.344 (1) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0134.344 (1) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0134.345 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0134.350 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0134.359 (1) Resume backup (f2d05699c3d5, 1): finish run
+0134.363 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0134.372 (1) The backup has not finished; a resumption is scheduled
+0471.594 (2) Opened log file at time: Thu, 25 Feb 2016 19:51:33 +0000 on https://windhill-coderunner47349.c9users.io
+0471.601 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.5.9-1ubuntu4.13 (Linux coderunner47349-windhill-2633189 4.2.0-c9 #1 SMP Wed Sep 30 16:14:37 UTC 2015 x86_64) MySQL: 5.5.44 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.6M | 3.8M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0471.610 (2) Free space on disk containing Updraft's temporary directory: 4985.7 Mb
+0471.624 (2) Backup run: resumption=2, nonce=f2d05699c3d5, begun at=1456429421 (472s ago), job type=backup
+0471.638 (2) Scheduling a resumption (3) after 300 seconds (1456430193) in case this run gets aborted
+0471.652 (2) Checking if we have a zip executable available
+0471.659 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0471.664 (2) Creation of backups of directories: already finished
+0471.672 (2) Saving backup status to database (elements: 8)
+0471.687 (2) Database dump (WordPress DB): Creation was completed already
+0471.713 (2) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip: plugins: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/ubuntu/workspace/wp-content/updraft/backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip)
+0471.726 (2) Recording as successfully uploaded: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip (78d838fa5251f0d1851c77b1fec82f3d)
+0471.750 (2) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip: themes: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/ubuntu/workspace/wp-content/updraft/backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip)
+0471.759 (2) Recording as successfully uploaded: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip (e85cb2589a7496e9eb9b04dcc2abc434)
+0471.774 (2) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip: uploads: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/ubuntu/workspace/wp-content/updraft/backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip)
+0471.786 (2) Recording as successfully uploaded: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip (c30ab392767887f3dd92fbee21e252b5)
+0471.800 (2) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip: others: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/ubuntu/workspace/wp-content/updraft/backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip)
+0471.812 (2) Recording as successfully uploaded: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip (ae7a251437647d9113fb527d7d5e9d20)
+0471.832 (2) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0471.837 (2) Saving backup history. Total backup size: 35.6 Mb
+0471.847 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+0471.856 (2) Cloud backup selection (1/1): googledrive (last)
+0471.862 (2) Beginning dispatch of backup to remote (googledrive)
+0471.866 (2) Google Drive: this account is not authorised
+0471.870 (2) An error condition has occurred for the first time during this job
+0471.879 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0471.887 (2) Number of backup sets in history: 3; groups (db): 1
+0471.891 (2) Examining (for databases) backup set with group_id=0, nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+0471.896 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0471.900 (2) Examining (for databases) backup set with group_id=0, nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+0471.906 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0471.910 (2) Examining (for databases) backup set with group_id=0, nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+0471.915 (2) This backup set is the backup set just made, so will not be deleted.
+0471.920 (2) Number of backup sets in history: 3; groups (files): 1
+0471.924 (2) Examining (for files) backup set with nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+0471.930 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0471.935 (2) Examining (for files) backup set with nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+0471.940 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0471.946 (2) Examining (for files) backup set with nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+0471.950 (2) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0471.954 (2) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0471.954 (2) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0471.955 (2) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0471.955 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0471.960 (2) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0471.971 (2) Resume backup (f2d05699c3d5, 2): finish run
+0471.983 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0471.994 (2) The backup has not finished; a resumption is scheduled
+0785.111 (3) Opened log file at time: Thu, 25 Feb 2016 19:56:46 +0000 on https://windhill-coderunner47349.c9users.io
+0785.116 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.5.9-1ubuntu4.13 (Linux coderunner47349-windhill-2633189 4.2.0-c9 #1 SMP Wed Sep 30 16:14:37 UTC 2015 x86_64) MySQL: 5.5.44 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.6M | 3.8M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0785.122 (3) Free space on disk containing Updraft's temporary directory: 4985.3 Mb
+0785.131 (3) Backup run: resumption=3, nonce=f2d05699c3d5, begun at=1456429421 (785s ago), job type=backup
+0785.141 (3) Scheduling a resumption (4) after 300 seconds (1456430506) in case this run gets aborted
+0785.152 (3) Checking if we have a zip executable available
+0785.156 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+0785.162 (3) Creation of backups of directories: already finished
+0785.167 (3) Saving backup status to database (elements: 8)
+0785.178 (3) Database dump (WordPress DB): Creation was completed already
+0785.196 (3) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip: plugins: This file has already been successfully uploaded
+0785.202 (3) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip: themes: This file has already been successfully uploaded
+0785.206 (3) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip: uploads: This file has already been successfully uploaded
+0785.210 (3) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip: others: This file has already been successfully uploaded
+0785.215 (3) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0785.220 (3) Saving backup history. Total backup size: 35.6 Mb
+0785.231 (3) Requesting upload of the files that have not yet been successfully uploaded (1)
+0785.240 (3) Cloud backup selection (1/1): googledrive (last)
+0785.246 (3) Beginning dispatch of backup to remote (googledrive)
+0785.250 (3) Google Drive: this account is not authorised
+0785.254 (3) An error condition has occurred for the first time during this job
+0785.264 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0785.269 (3) Number of backup sets in history: 3; groups (db): 1
+0785.274 (3) Examining (for databases) backup set with group_id=0, nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+0785.279 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0785.284 (3) Examining (for databases) backup set with group_id=0, nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+0785.288 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0785.292 (3) Examining (for databases) backup set with group_id=0, nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+0785.298 (3) This backup set is the backup set just made, so will not be deleted.
+0785.303 (3) Number of backup sets in history: 3; groups (files): 1
+0785.310 (3) Examining (for files) backup set with nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+0785.315 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0785.319 (3) Examining (for files) backup set with nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+0785.324 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0785.328 (3) Examining (for files) backup set with nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+0785.332 (3) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0785.339 (3) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0785.340 (3) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0785.340 (3) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0785.341 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0785.348 (3) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0785.359 (3) Resume backup (f2d05699c3d5, 3): finish run
+0785.367 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0785.378 (3) The backup has not finished; a resumption is scheduled
+1085.237 (4) Opened log file at time: Thu, 25 Feb 2016 20:01:47 +0000 on https://windhill-coderunner47349.c9users.io
+1085.243 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.5.9-1ubuntu4.13 (Linux coderunner47349-windhill-2633189 4.2.0-c9 #1 SMP Wed Sep 30 16:14:37 UTC 2015 x86_64) MySQL: 5.5.44 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.6M | 3.8M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+1085.248 (4) Free space on disk containing Updraft's temporary directory: 4984.9 Mb
+1085.259 (4) Backup run: resumption=4, nonce=f2d05699c3d5, begun at=1456429421 (1086s ago), job type=backup
+1085.273 (4) Scheduling a resumption (5) after 300 seconds (1456430807) in case this run gets aborted
+1085.286 (4) Checking if we have a zip executable available
+1085.291 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1085.298 (4) Creation of backups of directories: already finished
+1085.303 (4) Saving backup status to database (elements: 8)
+1085.316 (4) Database dump (WordPress DB): Creation was completed already
+1085.340 (4) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip: plugins: This file has already been successfully uploaded
+1085.346 (4) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip: themes: This file has already been successfully uploaded
+1085.350 (4) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip: uploads: This file has already been successfully uploaded
+1085.358 (4) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip: others: This file has already been successfully uploaded
+1085.363 (4) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+1085.368 (4) Saving backup history. Total backup size: 35.6 Mb
+1085.382 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+1085.396 (4) Cloud backup selection (1/1): googledrive (last)
+1085.403 (4) Beginning dispatch of backup to remote (googledrive)
+1085.408 (4) Google Drive: this account is not authorised
+1085.412 (4) An error condition has occurred for the first time during this job
+1085.423 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1085.429 (4) Number of backup sets in history: 3; groups (db): 1
+1085.435 (4) Examining (for databases) backup set with group_id=0, nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+1085.440 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1085.446 (4) Examining (for databases) backup set with group_id=0, nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+1085.450 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1085.454 (4) Examining (for databases) backup set with group_id=0, nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+1085.463 (4) This backup set is the backup set just made, so will not be deleted.
+1085.468 (4) Number of backup sets in history: 3; groups (files): 1
+1085.476 (4) Examining (for files) backup set with nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+1085.482 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1085.491 (4) Examining (for files) backup set with nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+1085.496 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1085.499 (4) Examining (for files) backup set with nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+1085.504 (4) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1085.508 (4) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1085.508 (4) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1085.509 (4) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1085.509 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1085.515 (4) Retain: saving new backup history (sets now: 3) and finishing retain operation
+1085.527 (4) Resume backup (f2d05699c3d5, 4): finish run
+1085.535 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1085.545 (4) The backup has not finished; a resumption is scheduled
+1436.686 (5) Opened log file at time: Thu, 25 Feb 2016 20:07:38 +0000 on https://windhill-coderunner47349.c9users.io
+1436.697 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.5.9-1ubuntu4.13 (Linux coderunner47349-windhill-2633189 4.2.0-c9 #1 SMP Wed Sep 30 16:14:37 UTC 2015 x86_64) MySQL: 5.5.44 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.6M | 3.8M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+1436.704 (5) Free space on disk containing Updraft's temporary directory: 4984.7 Mb
+1436.718 (5) Backup run: resumption=5, nonce=f2d05699c3d5, begun at=1456429421 (1437s ago), job type=backup
+1436.732 (5) Scheduling a resumption (6) after 300 seconds (1456431158) in case this run gets aborted
+1436.749 (5) Checking if we have a zip executable available
+1436.756 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+1436.762 (5) Creation of backups of directories: already finished
+1436.770 (5) Saving backup status to database (elements: 8)
+1436.788 (5) Database dump (WordPress DB): Creation was completed already
+1436.815 (5) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip: plugins: This file has already been successfully uploaded
+1436.823 (5) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip: themes: This file has already been successfully uploaded
+1436.834 (5) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip: uploads: This file has already been successfully uploaded
+1436.842 (5) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip: others: This file has already been successfully uploaded
+1436.850 (5) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+1436.856 (5) Saving backup history. Total backup size: 35.6 Mb
+1436.874 (5) Requesting upload of the files that have not yet been successfully uploaded (1)
+1436.888 (5) Cloud backup selection (1/1): googledrive (last)
+1436.895 (5) Beginning dispatch of backup to remote (googledrive)
+1436.902 (5) Google Drive: this account is not authorised
+1436.908 (5) An error condition has occurred for the first time during this job
+1436.923 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1436.932 (5) Number of backup sets in history: 3; groups (db): 1
+1436.940 (5) Examining (for databases) backup set with group_id=0, nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+1436.948 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1436.956 (5) Examining (for databases) backup set with group_id=0, nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+1436.964 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1436.971 (5) Examining (for databases) backup set with group_id=0, nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+1436.979 (5) This backup set is the backup set just made, so will not be deleted.
+1436.987 (5) Number of backup sets in history: 3; groups (files): 1
+1436.994 (5) Examining (for files) backup set with nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+1437.000 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1437.008 (5) Examining (for files) backup set with nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+1437.015 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1437.025 (5) Examining (for files) backup set with nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+1437.031 (5) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1437.036 (5) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1437.037 (5) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1437.038 (5) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1437.038 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1437.043 (5) Retain: saving new backup history (sets now: 3) and finishing retain operation
+1437.060 (5) Resume backup (f2d05699c3d5, 5): finish run
+1437.075 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1437.091 (5) The backup has not finished; a resumption is scheduled
+1745.381 (6) Opened log file at time: Thu, 25 Feb 2016 20:12:47 +0000 on https://windhill-coderunner47349.c9users.io
+1745.387 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.5.9-1ubuntu4.13 (Linux coderunner47349-windhill-2633189 4.2.0-c9 #1 SMP Wed Sep 30 16:14:37 UTC 2015 x86_64) MySQL: 5.5.44 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.6M | 3.8M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+1745.392 (6) Free space on disk containing Updraft's temporary directory: 4984.7 Mb
+1745.404 (6) Backup run: resumption=6, nonce=f2d05699c3d5, begun at=1456429421 (1746s ago), job type=backup
+1745.416 (6) Scheduling a resumption (7) after 300 seconds (1456431467) in case this run gets aborted
+1745.428 (6) Checking if we have a zip executable available
+1745.435 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+1745.439 (6) Creation of backups of directories: already finished
+1745.444 (6) Saving backup status to database (elements: 8)
+1745.455 (6) Database dump (WordPress DB): Creation was completed already
+1745.513 (6) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip: plugins: This file has already been successfully uploaded
+1745.519 (6) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip: themes: This file has already been successfully uploaded
+1745.527 (6) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip: uploads: This file has already been successfully uploaded
+1745.534 (6) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip: others: This file has already been successfully uploaded
+1745.539 (6) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+1745.544 (6) Saving backup history. Total backup size: 35.6 Mb
+1745.556 (6) Requesting upload of the files that have not yet been successfully uploaded (1)
+1745.568 (6) Cloud backup selection (1/1): googledrive (last)
+1745.574 (6) Beginning dispatch of backup to remote (googledrive)
+1745.580 (6) Google Drive: this account is not authorised
+1745.585 (6) An error condition has occurred for the first time during this job
+1745.595 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1745.601 (6) Number of backup sets in history: 3; groups (db): 1
+1745.607 (6) Examining (for databases) backup set with group_id=0, nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+1745.612 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1745.616 (6) Examining (for databases) backup set with group_id=0, nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+1745.622 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1745.626 (6) Examining (for databases) backup set with group_id=0, nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+1745.630 (6) This backup set is the backup set just made, so will not be deleted.
+1745.634 (6) Number of backup sets in history: 3; groups (files): 1
+1745.639 (6) Examining (for files) backup set with nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+1745.643 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1745.647 (6) Examining (for files) backup set with nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+1745.652 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1745.656 (6) Examining (for files) backup set with nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+1745.662 (6) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1745.666 (6) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1745.667 (6) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1745.668 (6) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+1745.668 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1745.674 (6) Retain: saving new backup history (sets now: 3) and finishing retain operation
+1745.684 (6) Resume backup (f2d05699c3d5, 6): finish run
+1745.693 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1745.703 (6) The backup has not finished; a resumption is scheduled
+2105.393 (7) Opened log file at time: Thu, 25 Feb 2016 20:18:47 +0000 on https://windhill-coderunner47349.c9users.io
+2105.400 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.5.9-1ubuntu4.13 (Linux coderunner47349-windhill-2633189 4.2.0-c9 #1 SMP Wed Sep 30 16:14:37 UTC 2015 x86_64) MySQL: 5.5.44 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.6M | 3.8M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+2105.407 (7) Free space on disk containing Updraft's temporary directory: 4984.7 Mb
+2105.423 (7) Backup run: resumption=7, nonce=f2d05699c3d5, begun at=1456429421 (2106s ago), job type=backup
+2105.439 (7) Scheduling a resumption (8) after 300 seconds (1456431827) in case this run gets aborted
+2105.455 (7) Checking if we have a zip executable available
+2105.462 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+2105.468 (7) Creation of backups of directories: already finished
+2105.475 (7) Saving backup status to database (elements: 8)
+2105.487 (7) Database dump (WordPress DB): Creation was completed already
+2105.516 (7) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip: plugins: This file has already been successfully uploaded
+2105.528 (7) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip: themes: This file has already been successfully uploaded
+2105.536 (7) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip: uploads: This file has already been successfully uploaded
+2105.545 (7) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip: others: This file has already been successfully uploaded
+2105.552 (7) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+2105.559 (7) Saving backup history. Total backup size: 35.6 Mb
+2105.574 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+2105.592 (7) Cloud backup selection (1/1): googledrive (last)
+2105.600 (7) Beginning dispatch of backup to remote (googledrive)
+2105.610 (7) Google Drive: this account is not authorised
+2105.618 (7) An error condition has occurred for the first time during this job
+2105.638 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2105.653 (7) Number of backup sets in history: 3; groups (db): 1
+2105.660 (7) Examining (for databases) backup set with group_id=0, nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+2105.668 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.677 (7) Examining (for databases) backup set with group_id=0, nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+2105.686 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.694 (7) Examining (for databases) backup set with group_id=0, nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+2105.704 (7) This backup set is the backup set just made, so will not be deleted.
+2105.712 (7) Number of backup sets in history: 3; groups (files): 1
+2105.719 (7) Examining (for files) backup set with nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+2105.727 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.734 (7) Examining (for files) backup set with nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+2105.741 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.748 (7) Examining (for files) backup set with nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+2105.755 (7) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2105.762 (7) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2105.762 (7) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2105.763 (7) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2105.763 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.771 (7) Retain: saving new backup history (sets now: 3) and finishing retain operation
+2105.791 (7) Resume backup (f2d05699c3d5, 7): finish run
+2105.805 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2105.820 (7) The backup has not finished; a resumption is scheduled
+2465.364 (8) Opened log file at time: Thu, 25 Feb 2016 20:24:47 +0000 on https://windhill-coderunner47349.c9users.io
+2465.371 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.5.9-1ubuntu4.13 (Linux coderunner47349-windhill-2633189 4.2.0-c9 #1 SMP Wed Sep 30 16:14:37 UTC 2015 x86_64) MySQL: 5.5.44 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.6M | 3.8M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+2465.376 (8) Free space on disk containing Updraft's temporary directory: 4984.7 Mb
+2465.399 (8) Backup run: resumption=8, nonce=f2d05699c3d5, begun at=1456429421 (2466s ago), job type=backup
+2465.412 (8) Scheduling a resumption (9) after 300 seconds (1456432187) in case this run gets aborted
+2465.427 (8) Checking if we have a zip executable available
+2465.439 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+2465.443 (8) Creation of backups of directories: already finished
+2465.450 (8) Saving backup status to database (elements: 8)
+2465.471 (8) Database dump (WordPress DB): Creation was completed already
+2465.499 (8) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip: plugins: This file has already been successfully uploaded
+2465.506 (8) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip: themes: This file has already been successfully uploaded
+2465.512 (8) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip: uploads: This file has already been successfully uploaded
+2465.520 (8) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip: others: This file has already been successfully uploaded
+2465.524 (8) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+2465.529 (8) Saving backup history. Total backup size: 35.6 Mb
+2465.539 (8) Requesting upload of the files that have not yet been successfully uploaded (1)
+2465.547 (8) Cloud backup selection (1/1): googledrive (last)
+2465.551 (8) Beginning dispatch of backup to remote (googledrive)
+2465.556 (8) Google Drive: this account is not authorised
+2465.561 (8) An error condition has occurred for the first time during this job
+2465.576 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2465.581 (8) Number of backup sets in history: 3; groups (db): 1
+2465.587 (8) Examining (for databases) backup set with group_id=0, nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+2465.594 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2465.599 (8) Examining (for databases) backup set with group_id=0, nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+2465.603 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2465.608 (8) Examining (for databases) backup set with group_id=0, nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+2465.613 (8) This backup set is the backup set just made, so will not be deleted.
+2465.618 (8) Number of backup sets in history: 3; groups (files): 1
+2465.623 (8) Examining (for files) backup set with nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+2465.628 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2465.634 (8) Examining (for files) backup set with nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+2465.639 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2465.644 (8) Examining (for files) backup set with nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+2465.650 (8) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2465.656 (8) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2465.656 (8) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2465.657 (8) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2465.657 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2465.664 (8) Retain: saving new backup history (sets now: 3) and finishing retain operation
+2465.677 (8) Resume backup (f2d05699c3d5, 8): finish run
+2465.691 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2465.706 (8) The backup has not finished; a resumption is scheduled
+2766.509 (9) Opened log file at time: Thu, 25 Feb 2016 20:29:48 +0000 on https://windhill-coderunner47349.c9users.io
+2766.516 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.5.9-1ubuntu4.13 (Linux coderunner47349-windhill-2633189 4.2.0-c9 #1 SMP Wed Sep 30 16:14:37 UTC 2015 x86_64) MySQL: 5.5.44 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.6M | 3.8M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+2766.522 (9) Free space on disk containing Updraft's temporary directory: 4984.7 Mb
+2766.532 (9) Backup run: resumption=9, nonce=f2d05699c3d5, begun at=1456429421 (2767s ago), job type=backup
+2766.546 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+2766.552 (9) Creation of backups of directories: already finished
+2766.560 (9) Saving backup status to database (elements: 8)
+2766.574 (9) Database dump (WordPress DB): Creation was completed already
+2766.597 (9) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip: plugins: This file has already been successfully uploaded
+2766.603 (9) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip: themes: This file has already been successfully uploaded
+2766.609 (9) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip: uploads: This file has already been successfully uploaded
+2766.614 (9) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip: others: This file has already been successfully uploaded
+2766.618 (9) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+2766.622 (9) Saving backup history. Total backup size: 35.6 Mb
+2766.632 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+2766.647 (9) Cloud backup selection (1/1): googledrive (last)
+2766.652 (9) Beginning dispatch of backup to remote (googledrive)
+2766.658 (9) Google Drive: this account is not authorised
+2766.663 (9) An error condition has occurred for the first time during this job
+2766.674 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2766.680 (9) Number of backup sets in history: 3; groups (db): 1
+2766.686 (9) Examining (for databases) backup set with group_id=0, nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+2766.691 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2766.696 (9) Examining (for databases) backup set with group_id=0, nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+2766.702 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2766.707 (9) Examining (for databases) backup set with group_id=0, nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+2766.712 (9) This backup set is the backup set just made, so will not be deleted.
+2766.718 (9) Number of backup sets in history: 3; groups (files): 1
+2766.722 (9) Examining (for files) backup set with nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+2766.728 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2766.734 (9) Examining (for files) backup set with nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+2766.741 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2766.748 (9) Examining (for files) backup set with nonce=f2d05699c3d5, datestamp=1456429421 (Feb 25 2016 19:43:41)
+2766.757 (9) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2766.763 (9) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2766.763 (9) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2766.764 (9) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+2766.764 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2766.770 (9) Retain: saving new backup history (sets now: 3) and finishing retain operation
+2766.782 (9) Resume backup (f2d05699c3d5, 9): finish run
+2766.791 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2766.803 (9) Fetching RSS news feed
+2766.823 (9) Fetched RSS news feed; result is a: SimplePie
+2766.834 (9) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 69.7 Kb) to: autum...
+2767.010 (9) The backup attempt has finished, apparently unsuccessfully

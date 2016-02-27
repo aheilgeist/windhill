@@ -1,0 +1,372 @@
+0000.001 (0) Opened log file at time: Thu, 25 Feb 2016 19:48:20 +0000 on https://windhill-coderunner47349.c9users.io
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.5.9-1ubuntu4.13 (Linux coderunner47349-windhill-2633189 4.2.0-c9 #1 SMP Wed Sep 30 16:14:37 UTC 2015 x86_64) MySQL: 5.5.44 Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.3M | 4.5M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.016 (0) Free space on disk containing Updraft's temporary directory: 4953.2 Mb
+0000.026 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.040 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.060 (0) Set semaphore last lock (fd) time to 2016-02-25 19:48:20
+0000.066 (0) Semaphore lock (fd) complete
+0000.088 (0) Backup run: resumption=0, nonce=10935e1d3237, begun at=1456429700 (0s ago), job type=backup
+0000.103 (0) Scheduling a resumption (1) after 300 seconds (1456430000) in case this run gets aborted
+0000.119 (0) Checking if we have a zip executable available
+0000.126 (0) Testing: /usr/bin/zip
+0000.139 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.147 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.154 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.159 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.163 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.174 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.183 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.189 (0) Working binary zip found: /usr/bin/zip
+0000.203 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.208 (0) Creation of backups of directories: beginning
+0000.227 (0) Beginning creation of dump of plugins (split every: 400 Mb)
+0001.053 (0) Total entities for the zip file: 365 directories, 2441 files (0 skipped as non-modified), 39.9 Mb
+0001.081 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0001.106 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0001.140 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0001.177 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0001.209 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0001.216 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 Mb, 2441 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0001.642 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: size is now: 0.80 Mb
+0001.678 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 600 files added (on-disk size: 820.5 Kb)
+0001.702 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 700 files added (on-disk size: 820.5 Kb)
+0001.740 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 800 files added (on-disk size: 820.5 Kb)
+0001.775 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 900 files added (on-disk size: 820.5 Kb)
+0001.801 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 1000 files added (on-disk size: 820.5 Kb)
+0001.808 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.1 Mb, 2441 files batched, 501 (1002) added so far); re-opening (prior size: 820.5 Kb)
+0002.921 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: size is now: 5.30 Mb
+0002.963 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 1100 files added (on-disk size: 5440.5 Kb)
+0003.000 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 1200 files added (on-disk size: 5440.5 Kb)
+0003.027 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 1300 files added (on-disk size: 5440.5 Kb)
+0003.053 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 1400 files added (on-disk size: 5440.5 Kb)
+0003.083 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 1500 files added (on-disk size: 5440.5 Kb)
+0003.091 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.1 Mb, 2441 files batched, 501 (1503) added so far); re-opening (prior size: 5440.5 Kb)
+0003.738 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: size is now: 11.00 Mb
+0003.771 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 1600 files added (on-disk size: 11314.3 Kb)
+0003.802 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 1700 files added (on-disk size: 11314.3 Kb)
+0003.825 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 1800 files added (on-disk size: 11314.3 Kb)
+0003.858 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 1900 files added (on-disk size: 11314.3 Kb)
+0003.884 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 2000 files added (on-disk size: 11314.3 Kb)
+0003.892 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 Mb, 2441 files batched, 501 (2004) added so far); re-opening (prior size: 11314.3 Kb)
+0004.524 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: size is now: 14.90 Mb
+0004.580 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 2100 files added (on-disk size: 15286.4 Kb)
+0004.603 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 2200 files added (on-disk size: 15286.4 Kb)
+0004.636 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 2300 files added (on-disk size: 15286.4 Kb)
+0004.661 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip.tmp: 2400 files added (on-disk size: 15286.4 Kb)
+0005.129 (0) Created plugins zip (0) - 16399.9 Kb in 4.9 s (3350.9 Kb/s) (SHA1 checksum: f4c214c73adc0384c8904a83913033d7fea722a7)
+0005.144 (0) Beginning creation of dump of themes (split every: 400 Mb)
+0005.324 (0) Total entities for the zip file: 114 directories, 806 files (0 skipped as non-modified), 25.6 Mb
+0005.361 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0005.394 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0005.425 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0005.457 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0005.482 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0005.493 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.9 Mb, 806 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0006.014 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip.tmp: size is now: 9.20 Mb
+0006.048 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip.tmp: 600 files added (on-disk size: 9434.6 Kb)
+0006.082 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip.tmp: 700 files added (on-disk size: 9434.6 Kb)
+0006.102 (0) Zip: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip.tmp: 800 files added (on-disk size: 9434.6 Kb)
+0006.543 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip.tmp: size is now: 19.40 Mb
+0006.704 (0) Created themes zip (0) - 19915.2 Kb in 1.6 s (12838.2 Kb/s) (SHA1 checksum: 3d1ba9239f718d33a2927f4bc02225a9391e11eb)
+0006.724 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0006.732 (0) Looking for candidates to back up in: /home/ubuntu/workspace/wp-content/uploads
+0006.741 (0) finding files: 2016: adding to list (1)
+0006.755 (0) Beginning creation of dump of uploads (split every: 400 Mb)
+0006.773 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 Mb
+0006.799 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-uploads.zip.tmp: size is now: 0.00 Mb
+0006.828 (0) Created uploads zip (0) - 0.3 Kb in 0.1 s (5.1 Kb/s) (SHA1 checksum: 2c1bf916fa331c27c9496f789e98d66b34e912bc)
+0006.853 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.860 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.868 (0) Looking for candidates to back up in: /home/ubuntu/workspace/wp-content
+0006.876 (0) finding files: plugins: skipping: this is the plugins directory
+0006.882 (0) finding files: themes: skipping: this is the themes directory
+0006.890 (0) finding files: upgrade: skipping: excluded by options
+0006.899 (0) finding files: uploads: skipping: this is the uploads directory
+0006.906 (0) finding files: updraft: skipping: this is the updraft directory
+0006.912 (0) finding files: index.php: adding to list (1)
+0006.933 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 Mb
+0006.949 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-others.zip.tmp: size is now: 0.00 Mb
+0006.981 (0) Created others zip (0) - 0.2 Kb in 0.1 s (3.3 Kb/s) (SHA1 checksum: 17ae61785d01ded43623312acdaf5199b62e8b5c)
+0007.012 (0) Saving backup status to database (elements: 8)
+0007.028 (0) Beginning creation of database dump (WordPress DB)
+0007.040 (0) Testing: /usr/bin/mysqldump
+0007.076 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0007.113 (0) Table wp_options: Total expected rows (approximate): 703
+0007.162 (0) Table wp_options: Total rows added: 219 in 0.04 seconds
+0007.169 (0) Table wp_options: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_options.table.gz - 121.2 Kb)
+0007.192 (0) Table wp_users: Total expected rows (approximate): 1
+0007.201 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0007.209 (0) Table wp_users: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_users.table.gz - 0.5 Kb)
+0007.233 (0) Table wp_usermeta: Total expected rows (approximate): 16
+0007.244 (0) Table wp_usermeta: Total rows added: 16 in 0.00 seconds
+0007.253 (0) Table wp_usermeta: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_usermeta.table.gz - 0.9 Kb)
+0007.279 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0007.290 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0007.296 (0) Table wp_commentmeta: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_commentmeta.table.gz - 0.4 Kb)
+0007.325 (0) Table wp_comments: Total expected rows (approximate): 1
+0007.335 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0007.346 (0) Table wp_comments: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_comments.table.gz - 0.7 Kb)
+0007.373 (0) Table wp_links: Total expected rows (approximate): 0
+0007.383 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0007.391 (0) Table wp_links: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_links.table.gz - 0.4 Kb)
+0007.415 (0) Table wp_postmeta: Total expected rows (approximate): 1
+0007.425 (0) Table wp_postmeta: Total rows added: 1 in 0.00 seconds
+0007.432 (0) Table wp_postmeta: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_postmeta.table.gz - 0.4 Kb)
+0007.457 (0) Table wp_posts: Total expected rows (approximate): 3
+0007.468 (0) Table wp_posts: Total rows added: 3 in 0.00 seconds
+0007.477 (0) Table wp_posts: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_posts.table.gz - 1.4 Kb)
+0007.501 (0) Table wp_term_relationships: Total expected rows (approximate): 1
+0007.511 (0) Table wp_term_relationships: Total rows added: 1 in 0.00 seconds
+0007.518 (0) Table wp_term_relationships: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_term_relationships.table.gz - 0.3 Kb)
+0007.548 (0) Table wp_term_taxonomy: Total expected rows (approximate): 1
+0007.561 (0) Table wp_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0007.569 (0) Table wp_term_taxonomy: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_term_taxonomy.table.gz - 0.4 Kb)
+0007.592 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0007.602 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0007.607 (0) Table wp_termmeta: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_termmeta.table.gz - 0.4 Kb)
+0007.632 (0) Table wp_terms: Total expected rows (approximate): 1
+0007.641 (0) Table wp_terms: Total rows added: 1 in 0.00 seconds
+0007.648 (0) Table wp_terms: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_terms.table.gz - 0.4 Kb)
+0007.674 (0) Table wp_wfBadLeechers: Total expected rows (approximate): 0
+0007.685 (0) Table wp_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0007.692 (0) Table wp_wfBadLeechers: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfBadLeechers.table.gz - 0.3 Kb)
+0007.717 (0) Table wp_wfBlockedIPLog: Total expected rows (approximate): 0
+0007.729 (0) Table wp_wfBlockedIPLog: Total rows added: 0 in 0.00 seconds
+0007.736 (0) Table wp_wfBlockedIPLog: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfBlockedIPLog.table.gz - 0.3 Kb)
+0007.764 (0) Table wp_wfBlocks: Total expected rows (approximate): 0
+0007.774 (0) Table wp_wfBlocks: Total rows added: 0 in 0.00 seconds
+0007.781 (0) Table wp_wfBlocks: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfBlocks.table.gz - 0.4 Kb)
+0007.810 (0) Table wp_wfBlocksAdv: Total expected rows (approximate): 0
+0007.821 (0) Table wp_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0007.828 (0) Table wp_wfBlocksAdv: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfBlocksAdv.table.gz - 0.3 Kb)
+0007.854 (0) Table wp_wfConfig: Total expected rows (approximate): 99
+0007.865 (0) Table wp_wfConfig: Total rows added: 99 in 0.01 seconds
+0007.872 (0) Table wp_wfConfig: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfConfig.table.gz - 1.6 Kb)
+0007.898 (0) Table wp_wfCrawlers: Total expected rows (approximate): 0
+0007.906 (0) Table wp_wfCrawlers: Total rows added: 0 in 0.00 seconds
+0007.914 (0) Table wp_wfCrawlers: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfCrawlers.table.gz - 0.3 Kb)
+0007.941 (0) Table wp_wfFileMods: Total expected rows (approximate): 0
+0007.951 (0) Table wp_wfFileMods: Total rows added: 0 in 0.00 seconds
+0007.959 (0) Table wp_wfFileMods: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfFileMods.table.gz - 0.3 Kb)
+0007.985 (0) Table wp_wfHits: Total expected rows (approximate): 0
+0007.995 (0) Table wp_wfHits: Total rows added: 0 in 0.00 seconds
+0008.003 (0) Table wp_wfHits: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfHits.table.gz - 0.4 Kb)
+0008.028 (0) Table wp_wfHoover: Total expected rows (approximate): 0
+0008.037 (0) Table wp_wfHoover: Total rows added: 0 in 0.00 seconds
+0008.045 (0) Table wp_wfHoover: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfHoover.table.gz - 0.3 Kb)
+0008.069 (0) Table wp_wfIssues: Total expected rows (approximate): 0
+0008.079 (0) Table wp_wfIssues: Total rows added: 0 in 0.00 seconds
+0008.086 (0) Table wp_wfIssues: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfIssues.table.gz - 0.3 Kb)
+0008.113 (0) Table wp_wfLeechers: Total expected rows (approximate): 0
+0008.126 (0) Table wp_wfLeechers: Total rows added: 0 in 0.00 seconds
+0008.133 (0) Table wp_wfLeechers: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfLeechers.table.gz - 0.3 Kb)
+0008.159 (0) Table wp_wfLockedOut: Total expected rows (approximate): 0
+0008.172 (0) Table wp_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0008.180 (0) Table wp_wfLockedOut: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfLockedOut.table.gz - 0.3 Kb)
+0008.208 (0) Table wp_wfLocs: Total expected rows (approximate): 0
+0008.219 (0) Table wp_wfLocs: Total rows added: 0 in 0.00 seconds
+0008.228 (0) Table wp_wfLocs: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfLocs.table.gz - 0.4 Kb)
+0008.253 (0) Table wp_wfLogins: Total expected rows (approximate): 0
+0008.262 (0) Table wp_wfLogins: Total rows added: 0 in 0.00 seconds
+0008.268 (0) Table wp_wfLogins: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfLogins.table.gz - 0.4 Kb)
+0008.292 (0) Table wp_wfNet404s: Total expected rows (approximate): 0
+0008.301 (0) Table wp_wfNet404s: Total rows added: 0 in 0.00 seconds
+0008.308 (0) Table wp_wfNet404s: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfNet404s.table.gz - 0.3 Kb)
+0008.332 (0) Table wp_wfReverseCache: Total expected rows (approximate): 0
+0008.341 (0) Table wp_wfReverseCache: Total rows added: 0 in 0.00 seconds
+0008.348 (0) Table wp_wfReverseCache: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfReverseCache.table.gz - 0.3 Kb)
+0008.373 (0) Table wp_wfScanners: Total expected rows (approximate): 0
+0008.383 (0) Table wp_wfScanners: Total rows added: 0 in 0.00 seconds
+0008.389 (0) Table wp_wfScanners: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfScanners.table.gz - 0.3 Kb)
+0008.413 (0) Table wp_wfStatus: Total expected rows (approximate): 0
+0008.422 (0) Table wp_wfStatus: Total rows added: 0 in 0.00 seconds
+0008.429 (0) Table wp_wfStatus: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfStatus.table.gz - 0.3 Kb)
+0008.452 (0) Table wp_wfThrottleLog: Total expected rows (approximate): 0
+0008.462 (0) Table wp_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0008.468 (0) Table wp_wfThrottleLog: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfThrottleLog.table.gz - 0.3 Kb)
+0008.489 (0) Table wp_wfVulnScanners: Total expected rows (approximate): 0
+0008.497 (0) Table wp_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0008.504 (0) Table wp_wfVulnScanners: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfVulnScanners.table.gz - 0.3 Kb)
+0008.524 (0) Table wp_wpgmza: Total expected rows (approximate): 1
+0008.538 (0) Table wp_wpgmza: Total rows added: 1 in 0.00 seconds
+0008.551 (0) Table wp_wpgmza: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wpgmza.table.gz - 0.5 Kb)
+0008.596 (0) Table wp_wpgmza_categories: Total expected rows (approximate): 0
+0008.610 (0) Table wp_wpgmza_categories: Total rows added: 0 in 0.00 seconds
+0008.623 (0) Table wp_wpgmza_categories: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wpgmza_categories.table.gz - 0.3 Kb)
+0008.644 (0) Table wp_wpgmza_category_maps: Total expected rows (approximate): 0
+0008.653 (0) Table wp_wpgmza_category_maps: Total rows added: 0 in 0.00 seconds
+0008.662 (0) Table wp_wpgmza_category_maps: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wpgmza_category_maps.table.gz - 0.3 Kb)
+0008.689 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 1
+0008.703 (0) Table wp_wpgmza_maps: Total rows added: 1 in 0.00 seconds
+0008.711 (0) Table wp_wpgmza_maps: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wpgmza_maps.table.gz - 0.7 Kb)
+0008.736 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0008.746 (0) Table wp_wpgmza_polygon: Total rows added: 0 in 0.00 seconds
+0008.752 (0) Table wp_wpgmza_polygon: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wpgmza_polygon.table.gz - 0.4 Kb)
+0008.780 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0008.790 (0) Table wp_wpgmza_polylines: Total rows added: 0 in 0.00 seconds
+0008.800 (0) Table wp_wpgmza_polylines: finishing file (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wpgmza_polylines.table.gz - 0.3 Kb)
+0008.830 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_options.table.gz (1/38): adding to final database dump
+0008.872 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_users.table.gz (2/38): adding to final database dump
+0008.882 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_usermeta.table.gz (3/38): adding to final database dump
+0008.891 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_commentmeta.table.gz (4/38): adding to final database dump
+0008.904 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_comments.table.gz (5/38): adding to final database dump
+0008.911 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_links.table.gz (6/38): adding to final database dump
+0008.919 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_postmeta.table.gz (7/38): adding to final database dump
+0008.928 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_posts.table.gz (8/38): adding to final database dump
+0008.936 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_term_relationships.table.gz (9/38): adding to final database dump
+0008.943 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_term_taxonomy.table.gz (10/38): adding to final database dump
+0008.950 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_termmeta.table.gz (11/38): adding to final database dump
+0008.957 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_terms.table.gz (12/38): adding to final database dump
+0008.965 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfBadLeechers.table.gz (13/38): adding to final database dump
+0008.972 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfBlockedIPLog.table.gz (14/38): adding to final database dump
+0008.980 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfBlocks.table.gz (15/38): adding to final database dump
+0008.988 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfBlocksAdv.table.gz (16/38): adding to final database dump
+0009.026 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfConfig.table.gz (17/38): adding to final database dump
+0009.033 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfCrawlers.table.gz (18/38): adding to final database dump
+0009.046 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfFileMods.table.gz (19/38): adding to final database dump
+0009.055 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfHits.table.gz (20/38): adding to final database dump
+0009.065 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfHoover.table.gz (21/38): adding to final database dump
+0009.072 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfIssues.table.gz (22/38): adding to final database dump
+0009.081 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfLeechers.table.gz (23/38): adding to final database dump
+0009.088 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfLockedOut.table.gz (24/38): adding to final database dump
+0009.096 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfLocs.table.gz (25/38): adding to final database dump
+0009.104 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfLogins.table.gz (26/38): adding to final database dump
+0009.111 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfNet404s.table.gz (27/38): adding to final database dump
+0009.119 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfReverseCache.table.gz (28/38): adding to final database dump
+0009.127 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfScanners.table.gz (29/38): adding to final database dump
+0009.136 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfStatus.table.gz (30/38): adding to final database dump
+0009.143 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfThrottleLog.table.gz (31/38): adding to final database dump
+0009.150 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wfVulnScanners.table.gz (32/38): adding to final database dump
+0009.156 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wpgmza.table.gz (33/38): adding to final database dump
+0009.165 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wpgmza_categories.table.gz (34/38): adding to final database dump
+0009.172 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wpgmza_category_maps.table.gz (35/38): adding to final database dump
+0009.179 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wpgmza_maps.table.gz (36/38): adding to final database dump
+0009.187 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wpgmza_polygon.table.gz (37/38): adding to final database dump
+0009.198 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db-table-wp_wpgmza_polylines.table.gz (38/38): adding to final database dump
+0009.205 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db.gz: finished writing out complete database file (104 Kb)
+0009.232 (0) Total database tables backed up: 38 (backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db.gz, size: 130971, checksum (SHA1): 6a100547653762be994ac5a406decb678e032443)
+0009.272 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0009.279 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0009.287 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0009.292 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-others.zip: others: This file has not yet been successfully uploaded: will queue
+0009.300 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.308 (0) Saving backup history. Total backup size: 35.6 Mb
+0009.329 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0009.351 (0) Cloud backup selection (1/1): googledrive (last)
+0009.358 (0) Beginning dispatch of backup to remote (googledrive)
+0009.367 (0) Google Drive: requesting access token: client_id=285965110824-rr0vh3mafnsdfn74sra2hecpdoh0jmvc.apps.googleusercontent.com
+0009.425 (0) Google Drive: successfully obtained access token
+0009.800 (0) Google Drive quota usage: used=1129.1 Mb, total=15360 Mb, available=14230.9 Mb
+0009.808 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip: Attempting to upload to Google Drive (into folder id: 0B_4zhbIx7EP4bUhBQ0ItS1d2ZDA)
+0011.795 (0) Googledrive chunked upload: 6.2 % uploaded (1048576)
+0013.596 (0) Googledrive chunked upload: 12.5 % uploaded (2097152)
+0015.430 (0) Googledrive chunked upload: 18.7 % uploaded (3145728)
+0017.237 (0) Googledrive chunked upload: 25 % uploaded (4194304)
+0019.040 (0) Googledrive chunked upload: 31.2 % uploaded (5242880)
+0027.432 (0) Googledrive chunked upload: 37.5 % uploaded (6291456)
+0029.258 (0) Googledrive chunked upload: 43.7 % uploaded (7340032)
+0031.091 (0) Googledrive chunked upload: 50 % uploaded (8388608)
+0032.938 (0) Googledrive chunked upload: 56.2 % uploaded (9437184)
+0034.731 (0) Googledrive chunked upload: 62.4 % uploaded (10485760)
+0036.666 (0) Googledrive chunked upload: 68.7 % uploaded (11534336)
+0038.471 (0) Googledrive chunked upload: 74.9 % uploaded (12582912)
+0040.314 (0) Googledrive chunked upload: 81.2 % uploaded (13631488)
+0070.600 (0) Googledrive chunked upload: 87.4 % uploaded (14680064)
+0072.474 (0) Googledrive chunked upload: 93.7 % uploaded (15728640)
+0074.343 (0) Googledrive chunked upload: 99.9 % uploaded (16777216)
+0074.912 (0) Googledrive chunked upload: 100 % uploaded (16777216)
+0074.935 (0) OK: Archive backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip uploaded to Google Drive in 65.12 seconds
+0074.948 (0) Recording as successfully uploaded: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip (27268b828e32cc6f60c380a8fcfca18d)
+0074.988 (0) Deleting local file: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-plugins.zip: OK
+0075.113 (0) Google Drive quota usage: used=1145.1 Mb, total=15360 Mb, available=14214.9 Mb
+0075.120 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip: Attempting to upload to Google Drive (into folder id: 0B_4zhbIx7EP4bUhBQ0ItS1d2ZDA)
+0077.063 (0) Googledrive chunked upload: 5.1 % uploaded (1048576)
+0078.915 (0) Googledrive chunked upload: 10.3 % uploaded (2097152)
+0080.718 (0) Googledrive chunked upload: 15.4 % uploaded (3145728)
+0082.562 (0) Googledrive chunked upload: 20.6 % uploaded (4194304)
+0084.377 (0) Googledrive chunked upload: 25.7 % uploaded (5242880)
+0086.256 (0) Googledrive chunked upload: 30.9 % uploaded (6291456)
+0088.074 (0) Googledrive chunked upload: 36 % uploaded (7340032)
+0089.879 (0) Googledrive chunked upload: 41.1 % uploaded (8388608)
+0091.688 (0) Googledrive chunked upload: 46.3 % uploaded (9437184)
+0093.515 (0) Googledrive chunked upload: 51.4 % uploaded (10485760)
+0095.307 (0) Googledrive chunked upload: 56.6 % uploaded (11534336)
+0097.132 (0) Googledrive chunked upload: 61.7 % uploaded (12582912)
+0098.976 (0) Googledrive chunked upload: 66.8 % uploaded (13631488)
+0100.764 (0) Googledrive chunked upload: 72 % uploaded (14680064)
+0102.558 (0) Googledrive chunked upload: 77.1 % uploaded (15728640)
+0104.362 (0) Googledrive chunked upload: 82.3 % uploaded (16777216)
+0106.180 (0) Googledrive chunked upload: 87.4 % uploaded (17825792)
+0107.979 (0) Googledrive chunked upload: 92.6 % uploaded (18874368)
+0109.812 (0) Googledrive chunked upload: 97.7 % uploaded (19922944)
+0111.117 (0) Googledrive chunked upload: 100 % uploaded (19922944)
+0111.135 (0) OK: Archive backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip uploaded to Google Drive in 36.01 seconds
+0111.145 (0) Recording as successfully uploaded: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip (1369c759aefaf77feb7dbcf59506f9e9)
+0111.165 (0) Deleting local file: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-themes.zip: OK
+0111.371 (0) Google Drive quota usage: used=1164.5 Mb, total=15360 Mb, available=14195.5 Mb
+0111.378 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B_4zhbIx7EP4bUhBQ0ItS1d2ZDA)
+0120.368 (0) Googledrive chunked upload: 100 % uploaded
+0120.387 (0) OK: Archive backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-uploads.zip uploaded to Google Drive in 9 seconds
+0120.399 (0) Recording as successfully uploaded: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-uploads.zip (aa9ea1d17f713385d31ef35ce8eac5b9)
+0120.419 (0) Deleting local file: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-uploads.zip: OK
+0120.541 (0) Google Drive quota usage: used=1164.5 Mb, total=15360 Mb, available=14195.5 Mb
+0120.548 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-others.zip: Attempting to upload to Google Drive (into folder id: 0B_4zhbIx7EP4bUhBQ0ItS1d2ZDA)
+0121.220 (0) Googledrive chunked upload: 100 % uploaded
+0121.239 (0) OK: Archive backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-others.zip uploaded to Google Drive in 0.68 seconds
+0121.251 (0) Recording as successfully uploaded: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-others.zip (d5252629083afbe919e547e71142856d)
+0121.270 (0) Deleting local file: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-others.zip: OK
+0121.397 (0) Google Drive quota usage: used=1164.5 Mb, total=15360 Mb, available=14195.5 Mb
+0121.405 (0) backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db.gz: Attempting to upload to Google Drive (into folder id: 0B_4zhbIx7EP4bUhBQ0ItS1d2ZDA)
+0122.260 (0) Googledrive chunked upload: 100 % uploaded
+0122.275 (0) OK: Archive backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db.gz uploaded to Google Drive in 0.86 seconds
+0122.288 (0) Recording as successfully uploaded: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db.gz (2ea9a393aea126fb0e7eaa2e1766e0ea)
+0122.304 (0) Deleting local file: backup_2016-02-25-1948_Windhill_Pancake_Parlor_10935e1d3237-db.gz: OK
+0122.318 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0122.324 (0) Number of backup sets in history: 3; groups (db): 1
+0122.330 (0) Examining (for databases) backup set with group_id=0, nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+0122.335 (0) This backup set is the backup set just made, so will not be deleted.
+0122.340 (0) Examining (for databases) backup set with group_id=0, nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+0122.344 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0122.351 (0) Examining (for databases) backup set with group_id=0, nonce=2031b4a345dc, datestamp=1456429421 (Feb 25 2016 19:43:41)
+0122.355 (0) 1456429421: db: this set includes a database (backup_2016-02-25-1943_Windhill_Pancake_Parlor_2031b4a345dc-db.gz); db count is now 2
+0122.361 (0) 1456429421: db: over retain limit (2); will delete this database
+0122.366 (0) Delete file: backup_2016-02-25-1943_Windhill_Pancake_Parlor_2031b4a345dc-db.gz, service=googledrive
+0122.559 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_2031b4a345dc-db.gz: Deletion failed: file was not found
+0122.572 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0122.578 (0) Number of backup sets in history: 3; groups (files): 1
+0122.583 (0) Examining (for files) backup set with nonce=10935e1d3237, datestamp=1456429700 (Feb 25 2016 19:48:20)
+0122.588 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0122.594 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0122.595 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0122.595 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0122.596 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0122.602 (0) Examining (for files) backup set with nonce=5b348664c241, datestamp=1456429566 (Feb 25 2016 19:46:06)
+0122.607 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0122.611 (0) Examining (for files) backup set with nonce=2031b4a345dc, datestamp=1456429421 (Feb 25 2016 19:43:41)
+0122.616 (0) plugins: over retain limit (2); will delete this file entity
+0122.622 (0) themes: over retain limit (2); will delete this file entity
+0122.626 (0) uploads: over retain limit (2); will delete this file entity
+0122.631 (0) others: over retain limit (2); will delete this file entity
+0122.636 (0) Delete file: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip, service=googledrive
+0122.642 (0) Deleting local copy (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip)
+0122.651 (0) Delete file: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip, service=googledrive
+0122.658 (0) Deleting local copy (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip)
+0122.668 (0) Delete file: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip, service=googledrive
+0122.675 (0) Deleting local copy (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip)
+0122.680 (0) Delete file: backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip, service=googledrive
+0122.687 (0) Deleting local copy (backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip)
+0122.855 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-plugins.zip: Deletion failed: file was not found
+0122.863 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-themes.zip: Deletion failed: file was not found
+0122.870 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-uploads.zip: Deletion failed: file was not found
+0122.875 (0) backup_2016-02-25-1943_Windhill_Pancake_Parlor_f2d05699c3d5-others.zip: Deletion failed: file was not found
+0122.886 (0) This backup set is now empty; will remove from history
+0122.891 (0) Deleting log file (log.2031b4a345dc.txt)
+0122.896 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0122.915 (0) Resume backup (10935e1d3237, 0): finish run
+0122.928 (0) Decremented the semaphore (fd) by 1
+0122.937 (0) Semaphore (fd) unlocked
+0122.942 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0122.957 (0) Fetching RSS news feed
+0122.970 (0) Fetched RSS news feed; result is a: SimplePie
+0122.979 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 Kb) to: autum...
+0123.037 (0) The backup apparently succeeded and is now complete
